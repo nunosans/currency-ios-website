@@ -16,6 +16,13 @@ page '/*.txt', layout: false
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
+###
+# Localization
+###
+
+# activate :i18n
+# activate :i18n, :mount_at_root => false
+activate :i18n, :mount_at_root => :en
 # General configuration
 
 # Reload the browser automatically whenever files change
@@ -34,10 +41,19 @@ end
 #   end
 # end
 
+set :css_dir, 'stylesheets'
+
+set :js_dir, 'javascripts'
+
+set :images_dir, 'images'
+
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
   # activate :minify_css
+
+  # Use relative URLs
+  activate :relative_assets
 
   # Minify Javascript on build
   # activate :minify_javascript
