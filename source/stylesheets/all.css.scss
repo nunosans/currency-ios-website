@@ -16,21 +16,21 @@ body, p, a {
 h1 {
   font-size: 18px;
   margin: 0;
-  margin: 11px 0;
+  margin: 6px 0;
   font-weight: 500;
   color: black;
 }
 
 h2 {
-  font-size: 48px;
-  line-height: 52px;
-  margin: 11px 0;
+  font-size: 36px;
+  line-height: 38px;
+  margin: 6px 0;
   font-weight: 300;
 }
 
 h3 {
   font-size: 18px;
-  margin: 11px 0;
+  margin: 6px 0;
   font-weight: 500;
   color: black;
 }
@@ -43,7 +43,7 @@ p {
 }
 
 header {
-  padding: 60px 0 20px;
+  padding: 20px 0 20px;
   a:hover {
     .app-icon {
       -webkit-transform: scale(1.03);
@@ -57,7 +57,6 @@ header {
 }
 
 .app-icon {
-  margin-top: 20px;
   padding: 20px;
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
@@ -68,7 +67,7 @@ header {
 }
 .app-store-badge {
   margin-top: -5px;
-  padding: 0 10px 30px;
+  padding: 0 10px 10px;
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
@@ -77,18 +76,102 @@ header {
           transition: 0.18s opacity ease-out;
 }
 
+.app-overview {
+  position: relative;
+  width: 348px;
+  height: 708px;
+  overflow: visible;
+  margin: 0 auto;
+  .callout-1,
+  .callout-2,
+  .callout-3 {
+    position: absolute;
+    width: 275px;
+    &:after {
+      content: "";
+      display: block;
+      width: 28px;
+      position: absolute;
+      image-rendering: pixelated;
+      background-position: 0;
+    }
+  }
+
+  .callout-1 {
+    top: 330px;
+    right: 100%;
+    text-align: right;
+    padding-right: 50px;
+    &:after {
+      height: 530px;
+      background-image: url('/images/callout_1_background.png');
+      background-size: 28px 530px;
+      right: 10px;
+      top: -251px;
+      @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+        background-image: url('/images/callout_1_background_2x.png');
+      }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2.5) {
+        background-image: url('/images/callout_1_background_3x.png');
+      }
+    }
+  }
+  .callout-2 {
+    top: 193px;
+    left: 100%;
+    text-align: left;
+    padding-left: 50px;
+    &:after {
+      height: 232px;
+      background-image: url('/images/callout_2_background.png');
+      background-size: 28px 232px;
+      left: 10px;
+      top: -114px;
+      @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+        background-image: url('/images/callout_2_background_2x.png');
+      }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2.5) {
+        background-image: url('/images/callout_2_background_3x.png');
+      }
+    }
+  }
+  .callout-3 {
+    top: 432px;
+    left: 100%;
+    text-align: left;
+    padding-left: 50px;
+    &:after {
+      height: 224px;
+      background-image: url('/images/callout_3_background.png');
+      background-size: 28px 224px;
+      left: 10px;
+      top: -48px;
+      @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+        background-image: url('/images/callout_3_background_2x.png');
+      }
+      @media only screen and (-webkit-min-device-pixel-ratio: 2.5) {
+        background-image: url('/images/callout_3_background_3x.png');
+      }
+    }
+  }
+}
+
 .iphone {
   background-image: url('/images/iphone.png');
-  background-size: 344px 700px;
-  background-position: center;
-  width: 346px;
+  background-size: 344px 708px;
+  background-position: 1px 4px;
+  width: 348px;
   height: 708px;
-  padding: 92px 25px;
+  padding: 90px 24px;
   display: inline-block;
   video {
-    width: 296px;
-    height: 526px;
+    width: 298px;
+    height: 530px;
   }
+}
+
+.app-intro {
+  margin: 120px 0;
 }
 
 footer {
