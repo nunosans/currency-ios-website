@@ -3,11 +3,45 @@ title: Welcome to Middleman
 ---
 
 <header>
-
+  <h1><%= t(:title) %></h1>
+  <h2><%= t(:tagline) %></h2>
+  <a href="">
+    <img
+      class="app-icon"
+      width="124"
+      height="124"
+      src="/images/app_icon.png"
+      alt="Currency for iOS icon"
+    >
+    <img
+      class="app-store-badge"
+      width="179"
+      height="56"
+      src="/images/<%= t(:app_store_badge_image_url) %>"
+      alt="Currency for iOS icon"
+    >
+  </a>
 </header>
 
 <main>
-
+  <div class="app-overview">
+    <div class="iphone">
+      <video width="296" height="530" muted autoplay loop
+        poster="/images/app-screen-recording.jpg">
+        <source src="/videos/app-screen-recording.mp4"  type="video/mp4">
+        <source src="/videos/app-screen-recording.ogg"  type="video/ogg">
+        <source src="/videos/app-screen-recording.webm" type="video/webm">
+      </video>
+    </div>
+    <p class="callout-1"><%= t(:callout_1) %></p>
+    <p class="callout-2"><%= t(:callout_2) %></p>
+    <p class="callout-3"><%= t(:callout_3) %></p>
+  </div>
+  <div class="app-intro">
+    <h3><%= t(:app_intro_title) %></h3>
+    <%= t(:app_intro_body) %>
+    <%= t(:app_intro_signature) %>
+  </div>
 </main>
 
 <footer>
