@@ -76,6 +76,21 @@ header {
           transition: 0.18s opacity ease-out;
 }
 
+@-webkit-keyframes slide-left {
+  0%   { opacity: 0; -webkit-transform: translateX(30px); }
+  100% { opacity: 1; -webkit-transform: translateX(0); }
+}
+
+@-webkit-keyframes slide-right {
+  0%   { opacity: 0; -webkit-transform: translateX(-30px); }
+  100% { opacity: 1; -webkit-transform: translateX(0); }
+}
+
+@-webkit-keyframes fade-out {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+
 .app-overview {
   position: relative;
   width: 348px;
@@ -87,6 +102,7 @@ header {
   .callout-3 {
     position: absolute;
     width: 275px;
+    opacity: 0;
     &:after {
       content: "";
       display: block;
@@ -94,6 +110,32 @@ header {
       position: absolute;
       image-rendering: pixelated;
       background-position: 0;
+    }
+  }
+  &.callouts-visible {
+    .callout-1 {
+      -webkit-animation: 0.36s slide-left 0.24s ease-out;
+      -webkit-animation-fill-mode: both;
+      opacity: 1;
+    }
+    .callout-2 {
+      -webkit-animation: 0.36s slide-right 0s ease-out;
+      -webkit-animation-fill-mode: both;
+      opacity: 1;
+    }
+    .callout-3 {
+      -webkit-animation: 0.36s slide-right 0.48s ease-out;
+      -webkit-animation-fill-mode: both;
+      opacity: 1;
+    }
+  }
+  &.callouts-hidden {
+    .callout-1,
+    .callout-2,
+    .callout-3 {
+      -webkit-animation: 0.24s fade-out 0s ease-out;
+      -webkit-animation-fill-mode: both;
+      opacity: 0;
     }
   }
 
