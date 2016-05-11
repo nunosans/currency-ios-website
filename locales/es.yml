@@ -1,3 +1,6 @@
 ---
 es:
-  hello: "Hola"
+
+  # Footer
+  press_kit: "Press Kit"
+  press_kit_link: ""
