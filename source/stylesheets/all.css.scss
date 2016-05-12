@@ -50,6 +50,7 @@ body, p, h1, h2, h3, a {
 body {
   text-align: center;
   background-color: #F0F0F0;
+  overflow-x: hidden;
 }
 
 body, p, a {
@@ -58,32 +59,60 @@ body, p, a {
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 14px;
   margin: 0;
-  margin: 6px 0;
+  margin: 6px;
   font-weight: 500;
   color: black;
 }
 
 h2 {
-  font-size: 36px;
-  line-height: 38px;
-  margin: 6px 0;
+  font-size: 28px;
+  line-height: 30px;
+  margin: 6px 12px;
   font-weight: 300;
+  @media(min-width: 450px) {
+    br {
+      display: none;
+    }
+  }
+  @media(min-width: 700px) {
+    font-size: 36px;
+    line-height: 40px;
+  }
 }
 
 h3 {
   font-size: 18px;
-  margin: 6px 0;
+  margin: 22px 12px;
   font-weight: 500;
   color: black;
 }
 
 p {
+  width: 85%;
   max-width: 340px;
   text-align: left;
   margin: 11px auto;
   font-weight: 400;
+  @media(min-width: 700px) {
+    width: auto;
+  }
+}
+
+blockquote {
+  p:first-child {
+    text-indent: -8px;
+  }
+}
+
+a {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  &:hover {
+    opacity: 0.75;
+  }
 }
 
 // Header.
@@ -104,45 +133,72 @@ header {
 
 .app-icon {
   padding: 20px;
+  width: 124px * 0.65;
+  height: 124px * 0.65;
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
   -webkit-transition: 0.18s -webkit-transform ease-out;
      -moz-transition: 0.18s    -moz-transform ease-out;
           transition: 0.18s         transform ease-out;
+  @media(min-width: 700px) {
+    width: 124px;
+    height: 124px;
+  }
 }
 .app-store-badge {
   margin-top: -5px;
   padding: 0 10px 10px;
+  width: 179px * 0.75;
+  height: 56px * 0.75;
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
   -webkit-transition: 0.18s opacity ease-out;
      -moz-transition: 0.18s opacity ease-out;
           transition: 0.18s opacity ease-out;
+  @media(min-width: 700px) {
+    width: 179px;
+    height: 56px;
+  }
 }
 
 // Main.
 
 .app-overview {
   position: relative;
-  width: 348px;
-  height: 708px;
+  width: 348px * 0.6;
+  height: 712px * 0.6;
   overflow: visible;
   margin: 0 auto;
+  opacity: 0;
   -webkit-animation: 0.48s slide-up 0.48s cubic-bezier(.4,.86,.8,1);
      -moz-animation: 0.48s slide-up 0.48s cubic-bezier(.4,.86,.8,1);
           animation: 0.48s slide-up 0.48s cubic-bezier(.4,.86,.8,1);
   -webkit-animation-fill-mode: both;
      -moz-animation-fill-mode: both;
           animation-fill-mode: both;
-  opacity: 0;
+  @media(min-width: 700px) {
+    width: 348px;
+    height: 712px;
+  }
   .callout-1,
   .callout-2,
   .callout-3 {
     position: absolute;
-    width: 275px;
     opacity: 0;
+    display: none;
+    font-size: 14px;
+    width: 180px;
+    line-height: 18px;
+    @media(min-width: 700px) {
+      display: block;
+    }
+    @media(min-width: 950px) {
+      font-size: inherit;
+      line-height: inherit;
+      width: 275px;
+    }
     &:after {
       content: "";
       display: block;
@@ -195,16 +251,22 @@ header {
     }
   }
   .callout-1 {
-    top: 330px;
+    top: 325px;
     right: 100%;
     text-align: right;
     padding-right: 50px;
+    @media(min-width: 950px) {
+      top: 330px;
+    }
     &:after {
       height: 530px;
       background-image: url('/images/callout_1_background.png');
       background-size: 28px 530px;
       right: 10px;
-      top: -251px;
+      top: -246px;
+      @media(min-width: 950px) {
+        top: -251px;
+      }
       @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
         background-image: url('/images/callout_1_background_2x.png');
       }
@@ -214,16 +276,22 @@ header {
     }
   }
   .callout-2 {
-    top: 193px;
+    top: 187px;
     left: 100%;
     text-align: left;
     padding-left: 50px;
+    @media(min-width: 950px) {
+      top: 193px;
+    }
     &:after {
       height: 232px;
       background-image: url('/images/callout_2_background.png');
       background-size: 28px 232px;
       left: 10px;
-      top: -114px;
+      top: -108px;
+      @media(min-width: 950px) {
+        top: -114px;
+      }
       @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
         background-image: url('/images/callout_2_background_2x.png');
       }
@@ -233,16 +301,22 @@ header {
     }
   }
   .callout-3 {
-    top: 432px;
+    top: 440px;
     left: 100%;
     text-align: left;
     padding-left: 50px;
+    @media(min-width: 950px) {
+      top: 432px;
+    }
     &:after {
       height: 224px;
       background-image: url('/images/callout_3_background.png');
       background-size: 28px 224px;
       left: 10px;
-      top: -48px;
+      top: -56px;
+      @media(min-width: 950px) {
+        top: -48px;
+      }
       @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
         background-image: url('/images/callout_3_background_2x.png');
       }
@@ -255,43 +329,107 @@ header {
 
 .iphone {
   background-image: url('/images/iphone.png');
-  background-size: 344px 708px;
-  background-position: 1px 4px;
-  width: 348px;
-  height: 708px;
-  padding: 90px 24px;
   display: inline-block;
+  background-size: 344px * 0.6 708px * 0.6;
+  background-position: 1px 2px;
+  width: 348px * 0.6;
+  height: 712px * 0.6;
+  padding: 90px * 0.6 24px * 0.6;
+  @media(min-width: 700px) {
+    background-size: 344px 708px;
+    background-position: 1px 2px;
+    width: 348px;
+    height: 712px;
+    padding: 90px 24px;
+  }
   video {
-    width: 298px;
-    height: 530px;
+    width: 298px * 0.6;
+    height: 530px * 0.6;
+    @media(min-width: 700px) {
+      width: 298px;
+      height: 530px;
+    }
   }
 }
 
-.app-intro {
-  margin: 120px 0;
+.developer-quote {
+  margin: 120px * 0.5 0;
+  @media(min-width: 700px) {
+    margin: 120px 0;
+  }
+  small {
+    display: inline-block;
+    margin-top: 11px;
+    font-size: 18px;
+    line-height: 25px;
+    width: 100%;
+    &:before {
+      content: "—";
+      padding-right: 6px;
+      float: left;
+      height: 80px;
+    }
+  }
 }
 
 // Footer.
 
+.icon {
+  display: inline-block;
+  margin: 0 1px -3px 1px;
+}
+
+.download-icon {
+  background-image: url('/images/icon_download.png');
+  background-size: 15px 15px;
+  width: 15px;
+  height: 15px;
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+    background-image: url('/images/icon_download_2x.png');
+  }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2.5) {
+    background-image: url('/images/icon_download_3x.png');
+  }
+}
+
 footer {
   width: 100%;
   border-top: 1px solid rgba(black, 0.1);
-  padding: 0 10px;
-  margin-top: 120px;
+  padding: 10px;
+  margin-top: 120px * 0.5;
+  text-align: left;
+  @media(min-width: 700px) {
+    padding: 0 10px;
+    margin-top: 120px;
+  }
+  ul {
+    padding: 10px 0;
+    @media(min-width: 700px) {
+      padding: 0;
+    }
+  }
   li {
-    display: inline-block;
+    @media(min-width: 700px) {
+      display: inline-block;
+    }
     a {
       display: inline-block;
-      padding: 20px 10px;
+      padding: 0 10px;
       font-size: 14px;
+      @media(min-width: 700px) {
+        padding: 20px 10px;
+      }
     }
   }
   ul:first-child {
-    float: left;
-    text-align: left;
+    @media(min-width: 700px) {
+      float: left;
+    }
   }
   ul:last-child {
-    float: right;
-    text-align: right;
+    @media(min-width: 700px) {
+      float: right;
+      text-align: right;
+    }
   }
 }

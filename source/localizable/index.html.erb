@@ -1,7 +1,3 @@
----
-title: Welcome to Middleman
----
-
 <header>
   <h1><%= t(:title) %></h1>
   <h2><%= t(:tagline) %></h2>
@@ -38,20 +34,26 @@ title: Welcome to Middleman
     <p class="callout-2"><%= t(:callout_2) %></p>
     <p class="callout-3"><%= t(:callout_3) %></p>
   </div>
-  <div class="app-intro">
-    <h3><%= t(:app_intro_title) %></h3>
-    <%= t(:app_intro_body) %>
-    <%= t(:app_intro_signature) %>
+  <div class="developer-quote">
+    <h3><%= t(:developer_quote_title) %></h3>
+    <blockquote>
+      <%= t(:developer_quote_body) %>
+    </blockquote>
+    <p>
+      <small>
+        <a href="http://twitter.com/nunosans/" target="_blank">Nuno Coelho Santos</a>
+      </small>
+    </p>
   </div>
 </main>
 
 <footer>
   <ul>
     <li>
-      <a href="http://nunocoelhosantos.com/">&copy; Nuno Coelho Santos 2016</a>
+      <a href="http://nunocoelhosantos.com/" target="_blank">&copy; Nuno Coelho Santos 2016</a>
     </li>
     <li>
-      <a href="<%= t(:press_kit_link) %>"><%= t(:press_kit) %></a>
+      <a href="<%= t(:press_kit_link) %>"><%= t(:press_kit) %> <i class="icon download-icon"></i></a>
     </li>
   </ul>
   <ul>
