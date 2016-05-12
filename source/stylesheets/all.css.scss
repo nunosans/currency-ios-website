@@ -131,7 +131,11 @@ header {
   overflow: visible;
   margin: 0 auto;
   -webkit-animation: 0.48s slide-up 0.48s cubic-bezier(.4,.86,.8,1);
+     -moz-animation: 0.48s slide-up 0.48s cubic-bezier(.4,.86,.8,1);
+          animation: 0.48s slide-up 0.48s cubic-bezier(.4,.86,.8,1);
   -webkit-animation-fill-mode: both;
+     -moz-animation-fill-mode: both;
+          animation-fill-mode: both;
   opacity: 0;
   .callout-1,
   .callout-2,
@@ -151,17 +155,29 @@ header {
   &.callouts-visible {
     .callout-1 {
       -webkit-animation: 0.36s slide-left 0.24s ease-out;
+         -moz-animation: 0.36s slide-left 0.24s ease-out;
+              animation: 0.36s slide-left 0.24s ease-out;
       -webkit-animation-fill-mode: both;
+         -moz-animation-fill-mode: both;
+              animation-fill-mode: both;
       opacity: 1;
     }
     .callout-2 {
       -webkit-animation: 0.36s slide-right 0s ease-out;
+         -moz-animation: 0.36s slide-right 0s ease-out;
+              animation: 0.36s slide-right 0s ease-out;
       -webkit-animation-fill-mode: both;
+         -moz-animation-fill-mode: both;
+              animation-fill-mode: both;
       opacity: 1;
     }
     .callout-3 {
       -webkit-animation: 0.36s slide-right 0.48s ease-out;
+         -moz-animation: 0.36s slide-right 0.48s ease-out;
+              animation: 0.36s slide-right 0.48s ease-out;
       -webkit-animation-fill-mode: both;
+         -moz-animation-fill-mode: both;
+              animation-fill-mode: both;
       opacity: 1;
     }
   }
@@ -170,7 +186,11 @@ header {
     .callout-2,
     .callout-3 {
       -webkit-animation: 0.24s fade-out 0s ease-out;
+         -moz-animation: 0.24s fade-out 0s ease-out;
+              animation: 0.24s fade-out 0s ease-out;
       -webkit-animation-fill-mode: both;
+         -moz-animation-fill-mode: both;
+              animation-fill-mode: both;
       opacity: 0;
     }
   }
