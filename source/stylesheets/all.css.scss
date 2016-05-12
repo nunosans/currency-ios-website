@@ -134,6 +134,10 @@ a {
 
 header {
   padding: 20px 0 20px;
+  // TEMP.
+  a {
+    pointer-events: none;
+  }
   a:hover {
     .app-icon {
       -webkit-transform: scale(1.03);
