@@ -1,0 +1,13 @@
+/* Team */
+
+  Design and Development: Nuno Coelho Santos
+  Contact:                nuno [at] nunocoelhosantos.com
+  Twitter:                @nunosans
+  From:                   Tokyo, Japan
+
+/* Site */
+
+  Last update: 2016/05/10
+  Language:    English, Portuguese, Chinese, Japanese
+  Doctype:     HTML5
+  IDE:         Adobe Photoshop CS6, Sketch, Sublime Text 3, Middleman 3

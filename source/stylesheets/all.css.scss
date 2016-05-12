@@ -63,6 +63,7 @@ body {
   text-align: center;
   background-color: #F1F1F1;
   overflow-x: hidden;
+  padding-top: 20px
 }
 
 body, p, a {
@@ -133,7 +134,7 @@ a {
 // Header.
 
 header {
-  padding: 20px 0 20px;
+  padding-bottom: 20px;
   // TEMP.
   a {
     pointer-events: none;
