@@ -1,3 +1,47 @@
+// Animations.
+
+@-webkit-keyframes slide-left {
+  0%   { opacity: 0; -webkit-transform: translateX(30px); }
+  100% { opacity: 1; -webkit-transform: translateX(0); }
+}
+
+@keyframes slide-left {
+  0%   { opacity: 0; transform: translateX(30px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+@-webkit-keyframes slide-right {
+  0%   { opacity: 0; -webkit-transform: translateX(-30px); }
+  100% { opacity: 1; -webkit-transform: translateX(0); }
+}
+
+@keyframes slide-right {
+  0%   { opacity: 0; transform: translateX(-30px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+@-webkit-keyframes slide-up {
+  0%   { opacity: 0; -webkit-transform: translateY(50px); }
+  100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+
+@keyframes slide-up {
+  0%   { opacity: 0; transform: translateY(50px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@-webkit-keyframes fade-out {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes fade-out {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+// Typography.
+
 body, p, h1, h2, h3, a {
   font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
   color: #4A4A4A;
@@ -42,6 +86,8 @@ p {
   font-weight: 400;
 }
 
+// Header.
+
 header {
   padding: 20px 0 20px;
   a:hover {
@@ -76,20 +122,7 @@ header {
           transition: 0.18s opacity ease-out;
 }
 
-@-webkit-keyframes slide-left {
-  0%   { opacity: 0; -webkit-transform: translateX(30px); }
-  100% { opacity: 1; -webkit-transform: translateX(0); }
-}
-
-@-webkit-keyframes slide-right {
-  0%   { opacity: 0; -webkit-transform: translateX(-30px); }
-  100% { opacity: 1; -webkit-transform: translateX(0); }
-}
-
-@-webkit-keyframes fade-out {
-  0%   { opacity: 1; }
-  100% { opacity: 0; }
-}
+// Main.
 
 .app-overview {
   position: relative;
@@ -97,6 +130,9 @@ header {
   height: 708px;
   overflow: visible;
   margin: 0 auto;
+  -webkit-animation: 0.48s slide-up 0.48s cubic-bezier(.4,.86,.8,1);
+  -webkit-animation-fill-mode: both;
+  opacity: 0;
   .callout-1,
   .callout-2,
   .callout-3 {
@@ -138,7 +174,6 @@ header {
       opacity: 0;
     }
   }
-
   .callout-1 {
     top: 330px;
     right: 100%;
@@ -215,6 +250,8 @@ header {
 .app-intro {
   margin: 120px 0;
 }
+
+// Footer.
 
 footer {
   width: 100%;
