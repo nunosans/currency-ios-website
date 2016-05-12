@@ -61,7 +61,7 @@ time, mark, audio, video {
 
 body {
   text-align: center;
-  background-color: #F0F0F0;
+  background-color: #F1F1F1;
   overflow-x: hidden;
 }
 
@@ -350,7 +350,7 @@ header {
 }
 
 .iphone {
-  background-image: url('/images/iphone.png');
+  background-image: url('/images/iphone.jpg');
   display: inline-block;
   background-size: 344px * 0.6 708px * 0.6;
   background-position: 1px 2px;
@@ -365,7 +365,7 @@ header {
     padding: 90px 24px;
   }
   @media (min-width: 700px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    background-image: url('/images/iphone_2x.png');
+    background-image: url('/images/iphone_2x.jpg');
   }
   video {
     width: 298px * 0.6;
