@@ -2,31 +2,27 @@
 zh:
 
   # Header
-  title: "Currency for iOS"
-  tagline: "A free currency converter you’ll love"
-  app_store_badge_image_url: "app_store_badge_en.png"
+  title: "Currency适用于iOS"
+  tagline: "一个自由的货币换算你一定会喜欢"
+  app_store_badge_image_url: "app_store_badge_zh.png"
 
   # Main
-  callout_1: "Incredibly simple interface"
-  callout_2: "Beautiful typography"
-  callout_3: "Add or subtract in different currencies"
-  developer_quote_title: "From the developer:"
+  callout_1: "令人难以置信的是简单的界面"
+  callout_2: "漂亮的印刷字体"
+  callout_3: "增加或减少在不同的货币"
+  developer_quote_title: "从创作者:"
   developer_quote_body: "<p>
-                   “Currency is the currency converter I always wanted to use.
-                   The design is meant to be intuitive and easy to use, showing
-                   incredible attention to typography at the same time. Every
-                   currency is displayed in its own correct currency format and
-                   with its currency symbol in the San Francisco typeface.
+                   “Currency是货币换算我一直想用。
+                    设计是为了直观和易于使用的，示出了在同一时间难以置信注意排版。
+                    每个货币显示在其自己的正确的货币格式，并在旧金山字样及其货币符号。
                    </p>
 
                    <p>
-                   Currency aim was simplicity, not features. It was been
-                   tested and revised throughout its entire development, aiming
-                   to be easy to use by anyone of any age, anywhere in the
-                   world.”
+                   Currency的目标是简单，功能不是很长的名单。
+                   它被经过测试，在其整个发展订正旨在易于由任何年龄的任何人使用，
+                   在世界上的任何地方。”
                    <p>"
-  developer_quote_signature: "Designer, Developer of Currency for iOS"
 
   # Footer
-  press_kit: "Press Kit"
-  press_kit_link: "Currency_for_iOS_Press_Kit_(English).zip"
+  press_kit: "新闻资料袋"
+  press_kit_link: "Currency_for_iOS_Press_Kit_(中文).zip"

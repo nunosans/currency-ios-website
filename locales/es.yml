@@ -2,31 +2,32 @@
 es:
 
   # Header
-  title: "Currency for iOS"
-  tagline: "A free currency converter you’ll love"
-  app_store_badge_image_url: "app_store_badge_en.png"
+  title: "Currency para iOS"
+  tagline: "Un convertidor de de divisas gratuito te encantará"
+  app_store_badge_image_url: "app_store_badge_es.png"
 
   # Main
-  callout_1: "Incredibly simple interface"
-  callout_2: "Beautiful typography"
-  callout_3: "Add or subtract in different currencies"
-  developer_quote_title: "From the developer:"
+  callout_1: "Interfaz increíblemente simple"
+  callout_2: "Bella tipografía"
+  callout_3: "Adicióna o sustraer en diferentes monedas"
+  developer_quote_title: "El criador:"
   developer_quote_body: "<p>
-                   “Currency is the currency converter I always wanted to use.
-                   The design is meant to be intuitive and easy to use, showing
-                   incredible attention to typography at the same time. Every
-                   currency is displayed in its own correct currency format and
-                   with its currency symbol in the San Francisco typeface.
+                   “Currency es el convertidor de divisas que siempre he querido
+                   utilizar. El diseño está destinado a ser intuitivo y fácil
+                   de usar, que muestra una increíble atención a la tipografía
+                   al mismo tiempo.Cada moneda está representada en su propio
+                   formato de moneda correcto y con su símbolo de moneda en el
+                   tipo de letra San Francisco.
                    </p>
 
                    <p>
-                   Currency aim was simplicity, not features. It was been
-                   tested and revised throughout its entire development, aiming
-                   to be easy to use by anyone of any age, anywhere in the
-                   world.”
+                   Lo objetivo de Currency era la simplicidad, no una larga
+                   lista de funciones. Se ha probado y revisado lo largo de
+                   todo su desarrollo, con el objetivo de ser fácil de usar
+                   por cualquier persona de cualquier edad, en cualquier parte
+                   del mundo.”
                    <p>"
-  developer_quote_signature: "Designer, Developer of Currency for iOS"
 
   # Footer
-  press_kit: "Press Kit"
-  press_kit_link: "Currency_for_iOS_Press_Kit_(English).zip"
+  press_kit: "Kit de Prensa"
+  press_kit_link: "Currency_for_iOS_Press_Kit_(Español).zip"

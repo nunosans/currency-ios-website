@@ -210,8 +210,8 @@ header {
       display: block;
     }
     @media(min-width: 950px) {
-      font-size: inherit;
-      line-height: inherit;
+      font-size: 18px;
+      line-height: 22px;
       width: 275px;
     }
     &:after {
@@ -266,21 +266,22 @@ header {
     }
   }
   .callout-1 {
-    top: 325px;
+    top: 334px;
     right: 100%;
     text-align: right;
-    padding-right: 50px;
+    padding-right: 45px;
     @media(min-width: 950px) {
-      top: 330px;
+      top: 333px;
+      padding-right: 50px;
     }
     &:after {
       height: 530px;
       background-image: url('/images/callout_1_background.png');
       background-size: 28px 530px;
       right: 10px;
-      top: -246px;
+      top: -255px;
       @media(min-width: 950px) {
-        top: -251px;
+        top: -253px;
       }
       @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
         background-image: url('/images/callout_1_background_2x.png');
@@ -291,21 +292,22 @@ header {
     }
   }
   .callout-2 {
-    top: 187px;
+    top: 195px;
     left: 100%;
     text-align: left;
-    padding-left: 50px;
+    padding-left: 45px;
     @media(min-width: 950px) {
-      top: 193px;
+      top: 194px;
+      padding-left: 50px;
     }
     &:after {
       height: 232px;
       background-image: url('/images/callout_2_background.png');
       background-size: 28px 232px;
       left: 10px;
-      top: -108px;
+      top: -117px;
       @media(min-width: 950px) {
-        top: -114px;
+        top: -115px;
       }
       @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
         background-image: url('/images/callout_2_background_2x.png');
@@ -316,21 +318,22 @@ header {
     }
   }
   .callout-3 {
-    top: 440px;
+    top: 451px;
     left: 100%;
     text-align: left;
-    padding-left: 50px;
+    padding-left: 45px;
     @media(min-width: 950px) {
-      top: 432px;
+      top: 450px;
+      padding-left: 50px;
     }
     &:after {
       height: 224px;
       background-image: url('/images/callout_3_background.png');
       background-size: 28px 224px;
       left: 10px;
-      top: -56px;
+      top: -65px;
       @media(min-width: 950px) {
-        top: -48px;
+        top: -64px;
       }
       @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
         background-image: url('/images/callout_3_background_2x.png');

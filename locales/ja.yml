@@ -2,31 +2,30 @@
 ja:
 
   # Header
-  title: "Currency for iOS"
-  tagline: "A free currency converter you’ll love"
-  app_store_badge_image_url: "app_store_badge_en.png"
+  title: "iOS の Currency (クレンシ)"
+  tagline: "あなたが好き無料通貨コンバータ"
+  app_store_badge_image_url: "app_store_badge_ja.png"
 
   # Main
-  callout_1: "Incredibly simple interface"
-  callout_2: "Beautiful typography"
-  callout_3: "Add or subtract in different currencies"
-  developer_quote_title: "From the developer:"
+  callout_1: "信じられないほどシンプルなインターフェイス"
+  callout_2: "美しいタイポグラフィー"
+  callout_3: "追加または異なる通貨で引きます"
+  developer_quote_title: "クリエイターのメッセージ:"
   developer_quote_body: "<p>
-                   “Currency is the currency converter I always wanted to use.
-                   The design is meant to be intuitive and easy to use, showing
-                   incredible attention to typography at the same time. Every
-                   currency is displayed in its own correct currency format and
-                   with its currency symbol in the San Francisco typeface.
+                   「Currency は、私がいつも使用したい通貨コンバータです。
+                    設計同時にタイポグラフィに信じられないほどの注意を示し、
+                    使用する直感的かつ容易であることを意味します。すべての
+                    通貨は、自身の正しい通貨形式で、サンフランシスコの書体での
+                    通貨記号で表示されます。
                    </p>
 
                    <p>
-                   Currency aim was simplicity, not features. It was been
-                   tested and revised throughout its entire development, aiming
-                   to be easy to use by anyone of any age, anywhere in the
-                   world.”
+                   Currencyの目的は、シンプルさ、機能のない長いリストが
+                   ありました。これは、検査の結果、世界のどこでも、
+                   あらゆる年齢の誰もが使いやすいように目指して、その全体の
+                   開発を通じて改訂されました。」
                    <p>"
-  developer_quote_signature: "Designer, Developer of Currency for iOS"
 
   # Footer
-  press_kit: "Press Kit"
-  press_kit_link: "Currency_for_iOS_Press_Kit_(English).zip"
+  press_kit: "プレスキット"
+  press_kit_link: "Currency_for_iOS_Press_Kit_(日本語).zip"
