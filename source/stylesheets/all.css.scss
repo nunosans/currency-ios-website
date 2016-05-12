@@ -76,7 +76,7 @@ h1 {
   margin: 6px;
   font-weight: 500;
   color: black;
-  @media(min-width: 700px) {
+  @media (min-width: 700px) {
     font-size: 18px;
   }
 }
@@ -86,12 +86,12 @@ h2 {
   line-height: 30px;
   margin: 6px 12px;
   font-weight: 300;
-  @media(min-width: 450px) {
+  @media (min-width: 450px) {
     br {
       display: none;
     }
   }
-  @media(min-width: 700px) {
+  @media (min-width: 700px) {
     font-size: 36px;
     line-height: 40px;
   }
@@ -110,7 +110,7 @@ p {
   text-align: left;
   margin: 11px auto;
   font-weight: 400;
-  @media(min-width: 700px) {
+  @media (min-width: 700px) {
     width: auto;
   }
 }
@@ -160,7 +160,7 @@ header {
   -webkit-transition: 0.18s -webkit-transform ease-out;
      -moz-transition: 0.18s    -moz-transform ease-out;
           transition: 0.18s         transform ease-out;
-  @media(min-width: 700px) {
+  @media (min-width: 700px) {
     width: 124px;
     height: 124px;
   }
@@ -176,7 +176,7 @@ header {
   -webkit-transition: 0.18s opacity ease-out;
      -moz-transition: 0.18s opacity ease-out;
           transition: 0.18s opacity ease-out;
-  @media(min-width: 700px) {
+  @media (min-width: 700px) {
     width: 179px;
     height: 56px;
   }
@@ -197,7 +197,7 @@ header {
   -webkit-animation-fill-mode: both;
      -moz-animation-fill-mode: both;
           animation-fill-mode: both;
-  @media(min-width: 700px) {
+  @media (min-width: 700px) {
     width: 348px;
     height: 712px;
   }
@@ -210,10 +210,10 @@ header {
     font-size: 14px;
     width: 180px;
     line-height: 18px;
-    @media(min-width: 700px) {
+    @media (min-width: 700px) {
       display: block;
     }
-    @media(min-width: 950px) {
+    @media (min-width: 950px) {
       font-size: 18px;
       line-height: 22px;
       width: 275px;
@@ -274,7 +274,7 @@ header {
     right: 100%;
     text-align: right;
     padding-right: 45px;
-    @media(min-width: 950px) {
+    @media (min-width: 950px) {
       top: 333px;
       padding-right: 50px;
     }
@@ -284,13 +284,13 @@ header {
       background-size: 28px 530px;
       right: 10px;
       top: -255px;
-      @media(min-width: 950px) {
+      @media (min-width: 950px) {
         top: -253px;
       }
-      @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+      @media (-webkit-min-device-pixel-ratio: 1.5) {
         background-image: url('/images/callout_1_background_2x.png');
       }
-      @media only screen and (-webkit-min-device-pixel-ratio: 2.5) {
+      @media (-webkit-min-device-pixel-ratio: 2.5) {
         background-image: url('/images/callout_1_background_3x.png');
       }
     }
@@ -300,7 +300,7 @@ header {
     left: 100%;
     text-align: left;
     padding-left: 45px;
-    @media(min-width: 950px) {
+    @media (min-width: 950px) {
       top: 194px;
       padding-left: 50px;
     }
@@ -310,13 +310,13 @@ header {
       background-size: 28px 232px;
       left: 10px;
       top: -117px;
-      @media(min-width: 950px) {
+      @media (min-width: 950px) {
         top: -115px;
       }
-      @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+      @media (-webkit-min-device-pixel-ratio: 1.5) {
         background-image: url('/images/callout_2_background_2x.png');
       }
-      @media only screen and (-webkit-min-device-pixel-ratio: 2.5) {
+      @media (-webkit-min-device-pixel-ratio: 2.5) {
         background-image: url('/images/callout_2_background_3x.png');
       }
     }
@@ -326,7 +326,7 @@ header {
     left: 100%;
     text-align: left;
     padding-left: 45px;
-    @media(min-width: 950px) {
+    @media (min-width: 950px) {
       top: 450px;
       padding-left: 50px;
     }
@@ -336,13 +336,13 @@ header {
       background-size: 28px 224px;
       left: 10px;
       top: -65px;
-      @media(min-width: 950px) {
+      @media (min-width: 950px) {
         top: -64px;
       }
-      @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+      @media (-webkit-min-device-pixel-ratio: 1.5) {
         background-image: url('/images/callout_3_background_2x.png');
       }
-      @media only screen and (-webkit-min-device-pixel-ratio: 2.5) {
+      @media (-webkit-min-device-pixel-ratio: 2.5) {
         background-image: url('/images/callout_3_background_3x.png');
       }
     }
@@ -357,17 +357,20 @@ header {
   width: 348px * 0.6;
   height: 712px * 0.6;
   padding: 90px * 0.6 24px * 0.6;
-  @media(min-width: 700px) {
+  @media (min-width: 700px) {
     background-size: 344px 708px;
     background-position: 1px 2px;
     width: 348px;
     height: 712px;
     padding: 90px 24px;
   }
+  @media (min-width: 700px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    background-image: url('/images/iphone_2x.png');
+  }
   video {
     width: 298px * 0.6;
     height: 530px * 0.6;
-    @media(min-width: 700px) {
+    @media (min-width: 700px) {
       width: 298px;
       height: 530px;
     }
@@ -376,7 +379,7 @@ header {
 
 .developer-quote {
   margin: 120px * 0.5 0;
-  @media(min-width: 700px) {
+  @media (min-width: 700px) {
     margin: 120px 0;
   }
   small {
@@ -406,10 +409,10 @@ header {
   background-size: 15px 15px;
   width: 15px;
   height: 15px;
-  @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  @media (-webkit-min-device-pixel-ratio: 1.5) {
     background-image: url('/images/icon_download_2x.png');
   }
-  @media only screen and (-webkit-min-device-pixel-ratio: 2.5) {
+  @media (-webkit-min-device-pixel-ratio: 2.5) {
     background-image: url('/images/icon_download_3x.png');
   }
 }
@@ -419,37 +422,38 @@ footer {
   border-top: 1px solid rgba(black, 0.1);
   padding: 10px;
   margin-top: 120px * 0.5;
-  text-align: left;
-  @media(min-width: 700px) {
+  text-align: center;
+  @media (min-width: 700px) {
+    text-align: left;
     padding: 0 10px;
     margin-top: 120px;
   }
   ul {
     padding: 10px 0;
-    @media(min-width: 700px) {
+    @media (min-width: 700px) {
       padding: 0;
     }
   }
   li {
-    @media(min-width: 700px) {
+    @media (min-width: 700px) {
       display: inline-block;
     }
     a {
       display: inline-block;
       padding: 0 10px;
       font-size: 14px;
-      @media(min-width: 700px) {
+      @media (min-width: 700px) {
         padding: 20px 10px;
       }
     }
   }
   ul:first-child {
-    @media(min-width: 700px) {
+    @media (min-width: 700px) {
       float: left;
     }
   }
   ul:last-child {
-    @media(min-width: 700px) {
+    @media (min-width: 700px) {
       float: right;
       text-align: right;
     }
