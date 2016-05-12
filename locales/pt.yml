@@ -2,17 +2,17 @@
 pt:
 
   # Header
-  title: "Currency for iOS"
-  tagline: "A free currency converter you’ll love"
+  title: "Currency para iOS"
+  tagline: "O seu novo conversor de moedas favorito"
   app_store_badge_image_url: "app_store_badge_pt.png"
 
   # Main
   callout_1: "Incredibly simple interface"
   callout_2: "Beautiful typography"
   callout_3: "Add or subtract in different currencies"
-  app_intro_title: "From the maker:"
-  app_intro_body: "<p>
-                   Currency is the currency converter I always wanted to use.
+  developer_quote_title: "From the developer:"
+  developer_quote_body: "<p>
+                   “Currency is the currency converter I always wanted to use.
                    The design is meant to be intuitive and easy to use, showing
                    incredible attention to typography at the same time. Every
                    currency is displayed in its own correct currency format and
@@ -23,11 +23,10 @@ pt:
                    Currency aim was simplicity, not features. It was been
                    tested and revised throughout its entire development, aiming
                    to be easy to use by anyone of any age, anywhere in the
-                   world.
+                   world.”
                    <p>"
-  app_intro_signature: "Nuno Coelho Santos,<br>
-                        Designer, Developer of Currency for iOS"
+  developer_quote_signature: "Designer, Developer of Currency for iOS"
 
   # Footer
   press_kit: "Press Kit"
-  press_kit_link: ""
+  press_kit_link: "Currency_for_iOS_Press_Kit_(Português).zip"
