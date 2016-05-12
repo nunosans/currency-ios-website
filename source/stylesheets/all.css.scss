@@ -64,6 +64,9 @@ h1 {
   margin: 6px;
   font-weight: 500;
   color: black;
+  @media(min-width: 700px) {
+    font-size: 18px;
+  }
 }
 
 h2 {
