@@ -141,13 +141,11 @@ header {
     padding: 40px 20px;
     margin: -20px 0 90px;
   }
-  a:hover {
-    .app-store-badge {
-      opacity: 0.75;
-    }
-  }
   h1, h2 {
     color: white;
+  }
+  a:hover {
+    opacity: 1;
   }
 }
 
@@ -180,7 +178,7 @@ header {
      -moz-transition: 0.18s opacity ease-out;
           transition: 0.18s opacity ease-out;
   @media (min-width: 700px) {
-    margin: -5px 0 -73px;
+    margin: -5px 0 -74px;
     width: 179px;
     height: 56px;
   }

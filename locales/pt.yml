@@ -4,8 +4,7 @@ pt:
   # Header
   title: "Currency para iOS"
   tagline: "O seu novo conversor de moedas favorito"
-  # app_store_badge_image_url: "app_store_badge_pt.png"
-  app_store_badge_image_url: "app_store_badge_pt_soon.png"
+  app_store_badge_image_url: "app_store_badge_pt.png"
 
   # Main
   callout_1: "Interface extremamente simples"
