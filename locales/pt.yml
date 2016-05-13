@@ -11,7 +11,6 @@ pt:
   callout_1: "Interface extremamente simples"
   callout_2: "Design rico em detalhes tipográficos"
   callout_3: "Calculadora integrada"
-  developer_quote_title: "Mensagem do criador:"
   developer_quote_body: "<p>
                    “Currency é o conversor de moedas que eu sempre quis utilizar.
                    O design procura ser simples e intuitivo, demonstrando beleza
@@ -26,6 +25,7 @@ pt:
                    que se torna-se fácil de utilizar por qualquer pessoa de
                    qualquer idade em qualquer canto do mundo.”
                    <p>"
+  developer_quote_title: "Designer, Developer of Currency"
 
   # Footer
   press_kit: "Kit de Imprensa"

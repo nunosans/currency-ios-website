@@ -11,7 +11,6 @@ ja:
   callout_1: "信じられないほどシンプルなインターフェイス"
   callout_2: "美しいタイポグラフィー"
   callout_3: "追加または異なる通貨で引きます"
-  developer_quote_title: "クリエイターのメッセージ:"
   developer_quote_body: "<p>
                    「Currency は、私がいつも使用したい通貨コンバータです。
                     設計同時にタイポグラフィに信じられないほどの注意を示し、
@@ -26,6 +25,8 @@ ja:
                    あらゆる年齢の誰もが使いやすいように目指して、その全体の
                    開発を通じて改訂されました。」
                    <p>"
+  developer_quote_name: "Nuno Coelho Santos"
+  developer_quote_title: "Designer, Developer of Currency"
 
   # Footer
   press_kit: "プレスキット"

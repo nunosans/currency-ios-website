@@ -11,7 +11,6 @@ es:
   callout_1: "Interfaz increíblemente simple"
   callout_2: "Bella tipografía"
   callout_3: "Adicióna o sustraer en diferentes monedas"
-  developer_quote_title: "El criador:"
   developer_quote_body: "<p>
                    “Currency es el convertidor de divisas que siempre he querido
                    utilizar. El diseño está destinado a ser intuitivo y fácil
@@ -28,6 +27,8 @@ es:
                    por cualquier persona de cualquier edad, en cualquier parte
                    del mundo.”
                    <p>"
+  developer_quote_name: "Nuno Coelho Santos"
+  developer_quote_title: "Designer, Developer of Currency"
 
   # Footer
   press_kit: "Kit de Prensa"

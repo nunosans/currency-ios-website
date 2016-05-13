@@ -3,9 +3,7 @@ title: Currency for iOS
 ---
 
 <header>
-  <h1><%= t(:title) %></h1>
-  <h2><%= t(:tagline) %></h2>
-  <a href="">
+
     <img
       class="app-icon"
       width="124"
@@ -13,7 +11,9 @@ title: Currency for iOS
       src="/images/app_icon.png"
       alt="Currency for iOS icon"
     >
-    <br>
+  <h1><%= t(:title) %></h1>
+  <h2><%= t(:tagline) %></h2>
+  <a href="">
     <img
       class="app-store-badge"
       width="179"
@@ -39,13 +39,15 @@ title: Currency for iOS
     <p class="callout-3"><%= t(:callout_3) %></p>
   </div>
   <div class="developer-quote">
-    <h3><%= t(:developer_quote_title) %></h3>
     <blockquote>
       <%= t(:developer_quote_body) %>
     </blockquote>
     <p>
       <small>
-        <a href="http://twitter.com/nunosans/" target="_blank">Nuno Coelho Santos</a>
+        <a href="http://twitter.com/nunosans/" target="_blank">
+          <%= t(:developer_quote_name) %>
+        </a><br>
+        <%= t(:developer_quote_title) %>
       </small>
     </p>
   </div>

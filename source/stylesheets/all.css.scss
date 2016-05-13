@@ -74,7 +74,7 @@ body, p, a {
 h1 {
   font-size: 14px;
   margin: 0;
-  margin: 6px;
+  margin: 0;
   font-weight: 500;
   color: black;
   @media (min-width: 700px) {
@@ -84,8 +84,8 @@ h1 {
 
 h2 {
   font-size: 28px;
-  line-height: 30px;
-  margin: 6px 12px;
+  line-height: 32px;
+  margin: 0 12px;
   font-weight: 300;
   @media (min-width: 450px) {
     br {
@@ -93,8 +93,8 @@ h2 {
     }
   }
   @media (min-width: 700px) {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 46px;
+    line-height: 56px;
   }
 }
 
@@ -134,25 +134,25 @@ a {
 // Header.
 
 header {
-  padding-bottom: 20px;
-  // TEMP.
-  a {
-    pointer-events: none;
+  padding: 10px 20px;
+  margin: -20px 0 50px;
+  background-color: #FBA630;
+  @media (min-width: 700px) {
+    padding: 40px 20px;
+    margin: -20px 0 90px;
   }
   a:hover {
-    .app-icon {
-      -webkit-transform: scale(1.03);
-         -moz-transform: scale(1.03);
-              transform: scale(1.03);
-    }
     .app-store-badge {
       opacity: 0.75;
     }
   }
+  h1, h2 {
+    color: white;
+  }
 }
 
 .app-icon {
-  padding: 20px;
+  padding: 10px;
   width: 124px * 0.65;
   height: 124px * 0.65;
   -webkit-box-sizing: content-box;
@@ -162,13 +162,15 @@ header {
      -moz-transition: 0.18s    -moz-transform ease-out;
           transition: 0.18s         transform ease-out;
   @media (min-width: 700px) {
+    padding: 20px;
     width: 124px;
     height: 124px;
   }
 }
 .app-store-badge {
-  margin-top: -5px;
-  padding: 0 10px 10px;
+  margin: -5px 0 -37px;
+  background-color: darken(white, 90%);
+  border-radius: 10px;
   width: 179px * 0.75;
   height: 56px * 0.75;
   -webkit-box-sizing: content-box;
@@ -178,6 +180,7 @@ header {
      -moz-transition: 0.18s opacity ease-out;
           transition: 0.18s opacity ease-out;
   @media (min-width: 700px) {
+    margin: -5px 0 -73px;
     width: 179px;
     height: 56px;
   }

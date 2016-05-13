@@ -11,7 +11,6 @@ zh:
   callout_1: "令人难以置信的是简单的界面"
   callout_2: "漂亮的印刷字体"
   callout_3: "增加或减少在不同的货币"
-  developer_quote_title: "从创作者:"
   developer_quote_body: "<p>
                    “Currency是货币换算我一直想用。
                     设计是为了直观和易于使用的，示出了在同一时间难以置信注意排版。
@@ -23,6 +22,8 @@ zh:
                    它被经过测试，在其整个发展订正旨在易于由任何年龄的任何人使用，
                    在世界上的任何地方。”
                    <p>"
+  developer_quote_name: "Nuno Coelho Santos"
+  developer_quote_title: "Designer, Developer of Currency"
 
   # Footer
   press_kit: "新闻资料袋"

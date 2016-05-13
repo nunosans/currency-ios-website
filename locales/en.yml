@@ -11,7 +11,6 @@ en:
   callout_1: "Incredibly simple interface"
   callout_2: "Beautiful typography"
   callout_3: "Add or subtract in different currencies"
-  developer_quote_title: "From the developer:"
   developer_quote_body: "<p>
                    “Currency is the currency converter I always wanted to use.
                    The design is meant to be intuitive and easy to use, showing
@@ -26,6 +25,8 @@ en:
                    to be easy to use by anyone of any age, anywhere in the
                    world.”
                    <p>"
+  developer_quote_name: "Nuno Coelho Santos"
+  developer_quote_title: "Designer, Developer of Currency"
 
   # Footer
   press_kit: "Press Kit"
