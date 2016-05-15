@@ -4,7 +4,8 @@ ja:
   # Header
   title: "iOS向けCurrency（カレンシー）"
   tagline: "無料為替レート計算アプリ"
-  app_store_badge_image_url: "app_store_badge_ja.png"
+  # app_store_badge_image_url: "app_store_badge_ja.png"
+  app_store_badge_image_url: "app_store_badge_coming_soon.png" # TEMP.
 
   # Main
   callout_1: "超シンプルな<br>インターフェース"

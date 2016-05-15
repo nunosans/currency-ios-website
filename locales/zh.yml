@@ -4,7 +4,8 @@ zh:
   # Header
   title: "Currency适用于iOS"
   tagline: "一个自由的货币换算你一定会喜欢"
-  app_store_badge_image_url: "app_store_badge_zh.png"
+  # app_store_badge_image_url: "app_store_badge_zh.png"
+  app_store_badge_image_url: "app_store_badge_coming_soon.png" # TEMP.
 
   # Main
   callout_1: "令人难以置信的是简单的界面"
