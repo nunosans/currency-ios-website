@@ -2,30 +2,27 @@
 ja:
 
   # Header
-  title: "iOS の Currency (クレンシ)"
-  tagline: "あなたが好き無料通貨コンバータ"
+  title: "iOS向けCurrency（カレンシー）"
+  tagline: "無料為替レート計算アプリ"
   app_store_badge_image_url: "app_store_badge_ja.png"
 
   # Main
-  callout_1: "信じられないほどシンプルなインターフェイス"
+  callout_1: "超シンプルな<br>インターフェース"
   callout_2: "美しいタイポグラフィー"
-  callout_3: "追加または異なる通貨で引きます"
+  callout_3: "多種通貨を自由に追加"
   developer_quote_body: "<p>
-                   「Currency は、私がいつも使用したい通貨コンバータです。
-                    設計同時にタイポグラフィに信じられないほどの注意を示し、
-                    使用する直感的かつ容易であることを意味します。すべての
-                    通貨は、自身の正しい通貨形式で、サンフランシスコの書体での
-                    通貨記号で表示されます。
+                   「Currencyは私がずっと使いたいと思っていた為替レート表です。
+　　　　　　　　　　設計には速さと使いやすさを優先しました。
+                    各通貨はそれぞれ正確な単位がサンフランシスコ活字体で表示されます。
                    </p>
 
                    <p>
-                   Currencyの目的は、シンプルさ、機能のない長いリストが
-                   ありました。これは、検査の結果、世界のどこでも、
-                   あらゆる年齢の誰もが使いやすいように目指して、その全体の
-                   開発を通じて改訂されました。」
+                   Currencyはシンプルである事を最優先にし、
+                   どんな人がどこで使用する場合も簡単に操作できるように、
+                   テストと訂正を繰り返してきました。」
                    <p>"
-  developer_quote_name: "Nuno Coelho Santos"
-  developer_quote_title: "Designer, Developer of Currency"
+  developer_quote_name: "Nuno Coelho Santos<br>(ヌノ・コエーリョサントス)"
+  developer_quote_title: "Currencyのプログラマーとデザイナー"
 
   # Footer
   press_kit: "プレスキット"
