@@ -1,0 +1,29 @@
+---
+zh_hant:
+
+  # Header
+  title: "Currency iOS版"
+  tagline: "壹款您壹定會喜歡的免費貨幣換算应用"
+  # app_store_badge_image_url: "app_store_badge_zh_hant.png"
+  app_store_badge_image_url: "app_store_badge_coming_soon.png" # TEMP.
+
+  # Main
+  callout_1: "卓越的極簡界面"
+  callout_2: "排版簡潔美觀"
+  callout_3: "輕松增減不同貨幣數值"
+  developer_quote_body: "<p>
+                   “Currency 是壹款我壹直想使用的貨幣換算应用。我的設計是非常直觀和易於使用的，同時在排版上做了非常細致的處理，能夠讓您在使用的全程中享受卓越的用戶體驗。每壹種貨幣都是按照其本身的格式呈現，貨幣符號是舊金山字體。
+                   </p>
+
+                   <p>
+                   Currency在整個開發階段壹直在測試和改進，力求為任意年齡的用戶在世界上的任意角落和任意網絡狀態下輕松實現不同貨幣間的換算。”
+                   <p>"
+  developer_quote_name: "努諾·科埃略·桑托斯<br>(Nuno Coelho Santos）"
+  developer_quote_title: "Currency iOS版 產品設計師"
+
+  # Footer
+  press_kit: "新聞發布材料"
+  press_kit_link: "Currency_for_iOS_Press_Kit_(繁體中文).zip"
+
+  # Support
+  support: "如需幫助和支持，請發送電子郵件至："
