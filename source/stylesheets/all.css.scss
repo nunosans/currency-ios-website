@@ -289,10 +289,14 @@ header {
       @media (min-width: 950px) {
         top: -253px;
       }
-      @media (-webkit-min-device-pixel-ratio: 1.5) {
+      @media (-webkit-min-device-pixel-ratio: 1.5),
+             (   min--moz-device-pixel-ratio: 1.5),
+             (        min-device-pixel-ratio: 1.5) {
         background-image: url('/images/callout_1_background_2x.png');
       }
-      @media (-webkit-min-device-pixel-ratio: 2.5) {
+      @media (-webkit-min-device-pixel-ratio: 2.5),
+             (   min--moz-device-pixel-ratio: 2.5),
+             (        min-device-pixel-ratio: 2.5) {
         background-image: url('/images/callout_1_background_3x.png');
       }
     }
@@ -315,10 +319,14 @@ header {
       @media (min-width: 950px) {
         top: -115px;
       }
-      @media (-webkit-min-device-pixel-ratio: 1.5) {
+      @media (-webkit-min-device-pixel-ratio: 1.5),
+             (   min--moz-device-pixel-ratio: 1.5),
+             (        min-device-pixel-ratio: 1.5) {
         background-image: url('/images/callout_2_background_2x.png');
       }
-      @media (-webkit-min-device-pixel-ratio: 2.5) {
+      @media (-webkit-min-device-pixel-ratio: 2.5),
+             (   min--moz-device-pixel-ratio: 2.5),
+             (        min-device-pixel-ratio: 2.5) {
         background-image: url('/images/callout_2_background_3x.png');
       }
     }
@@ -341,10 +349,14 @@ header {
       @media (min-width: 950px) {
         top: -64px;
       }
-      @media (-webkit-min-device-pixel-ratio: 1.5) {
+      @media (-webkit-min-device-pixel-ratio: 1.5),
+             (   min--moz-device-pixel-ratio: 1.5),
+             (        min-device-pixel-ratio: 1.5) {
         background-image: url('/images/callout_3_background_2x.png');
       }
-      @media (-webkit-min-device-pixel-ratio: 2.5) {
+      @media (-webkit-min-device-pixel-ratio: 2.5),
+             (   min--moz-device-pixel-ratio: 2.5),
+             (        min-device-pixel-ratio: 2.5) {
         background-image: url('/images/callout_3_background_3x.png');
       }
     }
@@ -411,10 +423,14 @@ header {
   background-size: 15px 15px;
   width: 15px;
   height: 15px;
-  @media (-webkit-min-device-pixel-ratio: 1.5) {
+  @media (-webkit-min-device-pixel-ratio: 1.5),
+         (   min--moz-device-pixel-ratio: 1.5),
+         (        min-device-pixel-ratio: 1.5) {
     background-image: url('/images/icon_download_2x.png');
   }
-  @media (-webkit-min-device-pixel-ratio: 2.5) {
+  @media (-webkit-min-device-pixel-ratio: 2.5),
+         (   min--moz-device-pixel-ratio: 2.5),
+         (        min-device-pixel-ratio: 2.5) {
     background-image: url('/images/icon_download_3x.png');
   }
 }
