@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
-  var iphoneContainer = $(".app-overview")
-  var iphoneVideo = $('.iphone video')
-  var calloutsVisible = false
-  var scrollPosition = 0
-  var scrollThreshold = 120
+  var iphoneContainer = $(".app-overview");
+  var iphoneVideo = $('.iphone video');
+  var calloutsVisible = false;
+  var scrollPosition = 0;
+  var scrollThreshold = 120;
 
   $(window).scroll(function() {
     scrollPosition = $(window).scrollTop();
