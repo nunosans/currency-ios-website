@@ -73,8 +73,7 @@ body, p, a {
 
 h1 {
   font-size: 14px;
-  margin: 0;
-  margin: 0;
+  margin: 12px 0 0 0;
   font-weight: 500;
   color: black;
   @media (min-width: 700px) {
@@ -134,18 +133,15 @@ a {
 // Header.
 
 header {
-  padding: 10px 20px;
-  margin: -20px 0 50px;
+  padding: 10px 20px 30px 20px;
+  margin: -20px 0 60px;
   background-color: #FEA30C;
   @media (min-width: 700px) {
-    padding: 40px 20px;
-    margin: -20px 0 90px;
+    padding: 40px 20px 40px 20px;
+    margin: -20px 0 90px 0;
   }
   h1, h2 {
     color: white;
-  }
-  a:hover {
-    opacity: 1;
   }
 }
 
@@ -166,11 +162,12 @@ header {
   }
 }
 .app-store-badge {
-  margin: -5px 0 -37px;
-  background-color: darken(white, 90%);
-  border-radius: 10px;
-  width: 179px * 0.75;
-  height: 56px * 0.75;
+  display: block;
+  margin: 30px auto -52px auto;
+  width: 179px * 0.8;
+  height: 56px * 0.8;
+  border-radius: 10px * 0.8;
+  background-color: black;
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
@@ -178,9 +175,17 @@ header {
      -moz-transition: 0.18s opacity ease-out;
           transition: 0.18s opacity ease-out;
   @media (min-width: 700px) {
-    margin: -5px 0 -74px;
+    margin: 40px auto -66px auto;
     width: 179px;
     height: 56px;
+    border-radius: 10px;
+  }
+  &:hover {
+    opacity: 1;
+  }
+  img {
+    width: 100%;
+    height: 100%;
   }
 }
 
