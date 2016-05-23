@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
   var iphoneContainer = $(".app-overview")
+  var iphoneVideo = $('.iphone video')
   var calloutsVisible = false
   var scrollPosition = 0
   var scrollThreshold = 120
@@ -16,6 +17,10 @@ $(document).ready(function() {
       iphoneContainer.addClass("callouts-hidden");
       calloutsVisible = false
     }
+  });
+
+  iphoneVideo.click(function() {
+    iphoneVideo.get(0).play();
   });
 
 });
