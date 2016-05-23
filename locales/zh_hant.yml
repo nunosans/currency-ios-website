@@ -4,8 +4,7 @@ zh_hant:
   # Header
   title: "Currency iOS版"
   tagline: "壹款您壹定會喜歡的免費貨幣換算应用"
-  # app_store_badge_image_url: "app_store_badge_zh_hant.png"
-  app_store_badge_image_url: "app_store_badge_coming_soon.png" # TEMP.
+  app_store_badge_image_url: "app_store_badge_zh_hant.png"
 
   # Main
   callout_1: "卓越的極簡界面"
