@@ -9,10 +9,16 @@ This is the marketing website for the [Currency for iOS App](https://itunes.appl
 This website is built with [Middleman](https://middlemanapp.com), a static website generator framework.
 
 To install [Middleman](https://middlemanapp.com), please run:
-```$ gem install middleman```
+```
+$ gem install middleman
+```
 
 To run the local web server, run the following command on the project directory:
-```$ bundle exec middleman build```
+```
+$ bundle exec middleman build
+```
 
 To build the website, run the following command on the project directory:
-```$ bundle exec middleman server```
+```
+$ bundle exec middleman server
+```
