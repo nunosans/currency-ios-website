@@ -130,6 +130,15 @@ a {
   }
 }
 
+.wordwrap {
+  display: inline-block;
+  font-family: inherit;
+  color: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  text-indent: 0;
+}
+
 // Header.
 
 header {
