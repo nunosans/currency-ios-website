@@ -15,10 +15,10 @@ $ gem install middleman
 
 To run the local web server, run the following command on the project directory:
 ```
-$ bundle exec middleman build
+$ bundle exec middleman server
 ```
 
 To build the website, run the following command on the project directory:
 ```
-$ bundle exec middleman server
+$ bundle exec middleman build
 ```
