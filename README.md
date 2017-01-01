@@ -13,6 +13,11 @@ To install [Middleman](https://middlemanapp.com), please run:
 $ gem install middleman
 ```
 
+To install all dependencies, run on the project directory:
+```
+$ bundle install
+```
+
 To run the local web server, run the following command on the project directory:
 ```
 $ bundle exec middleman server
