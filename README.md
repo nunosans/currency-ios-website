@@ -1,4 +1,4 @@
-## Currency for iOS Website
+# Currency for iOS Website
 
 ![alt tag](http://i.imgur.com/MgCOzHu.jpg)
 
