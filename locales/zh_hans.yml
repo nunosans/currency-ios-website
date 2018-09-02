@@ -5,6 +5,7 @@ zh_hans:
   title: "Currency iOS版"
   tagline: "一款您一定会喜欢货币换算应用"
   app_store_badge_image_url: "app_store_badge_zh_hans.png"
+  free: "免费"
 
   # Main
   callout_1: "卓越的极简界面"

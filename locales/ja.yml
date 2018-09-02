@@ -5,6 +5,7 @@ ja:
   title: "iOS向けCurrency（カレンシー）"
   tagline: "上品為替レート計算アプリ"
   app_store_badge_image_url: "app_store_badge_ja.png"
+  free: "無料"
 
   # Main
   callout_1: "<span class='wordwrap'>超</span><span class='wordwrap'>シンプル</span><span class='wordwrap'>な</span><span class='wordwrap'>インターフェース</span>"
