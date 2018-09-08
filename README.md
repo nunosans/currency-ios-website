@@ -23,6 +23,6 @@ To build the website, run the following command on the project directory:
 $ bundle exec middleman build
 ```
 
-## CJK Languges Localization
+## Localizing CJK Languages
 
-Use the [Budou](https://github.com/google/budou) tool for line breaking in Chinese, Japanese and Korean.
+Use Google's [Budou](https://github.com/google/budou) tool for correct line breaking in Chinese, Japanese and Korean. The tool will create a `<span class="wordwrap"></span>` element around each word.
