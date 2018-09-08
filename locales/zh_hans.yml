@@ -3,26 +3,26 @@ zh_hans:
 
   # Header
   title: "Currency iOS版"
-  tagline: "我敢保证你会爱上的一款货币兑换应用"
+  tagline: "<span class='ww'>我敢</span><span class='ww'>保证</span><span class='ww'>你</span><span class='ww'>会爱上</span><span class='ww'>的</span><span class='ww'>一款</span><span class='ww'>货币</span><span class='ww'>兑换</span><span class='ww'>应用</span>"
   app_store_badge_image_url: "app_store_badge_zh_hans.png"
   free: "免费"
 
   # Main
-  callout_1: "卓越的极简界面"
-  callout_2: "排版简洁美观"
-  callout_3: "轻松增减不同货币数值"
+  callout_1: "<span class='ww'>卓越</span><span class='ww'>的</span><span class='ww'>极简</span><span class='ww'>界面</span>"
+  callout_2: "<span class='ww'>排版</span><span class='ww'>简洁</span><span class='ww'>美观</span>"
+  callout_3: "<span class='ww'>轻松</span><span class='ww'>增减</span><span class='ww'>不同</span><span class='ww'>货币</span><span class='ww'>数值</span>"
   developer_quote_body: "<p>
-                   “我一直构想着一款我会愿意在旅途中使用的货币兑换应用。在我的构想中，它必须极易上手，清晰且不失细腻，让每一种货币都以其所规定的格式和相应的符号，使用旧金山字体呈现出来。
+                   <span class='ww'>「我</span><span class='ww'>一直</span><span class='ww'>构想</span><span class='ww'>着</span><span class='ww'>一款</span><span class='ww'>我</span><span class='ww'>会愿意在</span><span class='ww'>旅途</span><span class='ww'>中</span><span class='ww'>使用</span><span class='ww'>的</span><span class='ww'>货币</span><span class='ww'>兑换</span><span class='ww'>应用。</span><span class='ww'>在</span><span class='ww'>我</span><span class='ww'>的</span><span class='ww'>构想</span><span class='ww'>中，</span><span class='ww'>它</span><span class='ww'>必须极易</span><span class='ww'>上手，</span><span class='ww'>清晰</span><span class='ww'>且</span><span class='ww'>不失</span><span class='ww'>细腻，</span><span class='ww'>让</span><span class='ww'>每</span><span class='ww'>一种</span><span class='ww'>货币</span><span class='ww'>都</span><span class='ww'>以</span><span class='ww'>其</span><span class='ww'>所规定</span><span class='ww'>的</span><span class='ww'>格式</span><span class='ww'>和</span><span class='ww'>相应</span><span class='ww'>的</span><span class='ww'>符号，</span><span class='ww'>使用</span><span class='ww'>旧金山</span><span class='ww'>字体</span><span class='ww'>呈现出来。</span>
                    </p>
 
                    <p>
-                   Currency追求简洁，它仅保留了必要的功能。我在整个的设计和开发过程中，反复测试和推敲，期待为任何年龄的用户在世界上的任何角落和任何网络状态下轻松实现不同货币间的换算。”
+                   Currency<span class='ww'>追求</span><span class='ww'>简洁，</span><span class='ww'>它</span><span class='ww'>仅</span><span class='ww'>保留</span><span class='ww'>了</span><span class='ww'>必要</span><span class='ww'>的</span><span class='ww'>功能。</span><span class='ww'>我</span><span class='ww'>在</span><span class='ww'>整个</span><span class='ww'>的</span><span class='ww'>设计</span><span class='ww'>和</span><span class='ww'>开发</span><span class='ww'>过程</span><span class='ww'>中，</span><span class='ww'>反复</span><span class='ww'>测试</span><span class='ww'>和</span><span class='ww'>推敲，</span><span class='ww'>期待</span><span class='ww'>为</span><span class='ww'>任何</span><span class='ww'>年龄</span><span class='ww'>的</span><span class='ww'>用户</span><span class='ww'>在</span><span class='ww'>世界</span><span class='ww'>上</span><span class='ww'>的</span><span class='ww'>任何</span><span class='ww'>角落</span><span class='ww'>和</span><span class='ww'>任何</span><span class='ww'>网络</span><span class='ww'>状态</span><span class='ww'>下</span><span class='ww'>轻松</span><span class='ww'>实现</span><span class='ww'>不同</span><span class='ww'>货币</span><span class='ww'>间</span><span class='ww'>的</span><span class='ww'>换算。」</span>
                    <p>"
-  developer_quote_name: "努诺·科埃略·桑托斯<br>(Nuno Coelho Santos)"
-  developer_quote_title: "Currency iOS版 产品设计师"
+  developer_quote_name: "<span class='ww'>努诺·</span><span class='ww'>科埃略·</span><span class='ww'>桑托斯</span>(Nuno Coelho Santos)"
+  developer_quote_title: "Currency iOS<span class='ww'>版</span><span class='ww'>产品</span><span class='ww'>设计师</span>"
 
   # Footer
   press_kit: "新闻发布材料"
 
   # Support
-  support: "如需帮助和支持，请发送电子邮件至："
+  support: "<span class='ww'>如</span><span class='ww'>需帮助</span><span class='ww'>和</span><span class='ww'>支持，</span><span class='ww'>请发送</span><span class='ww'>电子</span><span class='ww'>邮件至：</span>"

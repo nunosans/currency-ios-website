@@ -2,27 +2,27 @@
 ja:
 
   # Header
-  title: "iOS向けCurrency（カレンシー）"
-  tagline: "あなたが恋をする為替計算アプリ"
+  title: "<span class='ww'>iOS向け</span>Currency<span class='ww'>（カレンシー）</span>"
+  tagline: "<span class='ww'>あなたが</span><span class='ww'>恋を</span><span class='ww'>する</span><span class='ww'>為替</span><span class='ww'>計算</span><span class='ww'>アプリ</span>"
   app_store_badge_image_url: "app_store_badge_ja.png"
   free: "無料"
 
   # Main
-  callout_1: "超シンプルなインターフェース"
-  callout_2: "美しいタイポグラフィー"
-  callout_3: "電卓で計算しながら、即時に通貨の換算をする"
+  callout_1: "<span class='ww'>超シンプルな</span><span class='ww'>インターフェース</span>"
+  callout_2: "<span class='ww'>美しい</span><span class='ww'>タイポグラフィー</span>"
+  callout_3: "<span class='ww'>電卓で</span><span class='ww'>計算</span><span class='ww'>しながら、</span><span class='ww'>即時に</span><span class='ww'>通貨の</span><span class='ww'>換算を</span><span class='ww'>する</span>"
   developer_quote_body: "<p>
-                   Currencyは私が使いたいとずっと思っていた為替計算ツールです。設計には分かりやすさと使いやすさを心掛けています。各通貨はそれぞれ正確な形式で表示され、San Franciscoフォントにて通貨記号が表示されます。
+                   <span class='ww'>「Currencyは</span><span class='ww'>私が</span><span class='ww'>使いたいと</span><span class='ww'>ずっと</span><span class='ww'>思って</span><span class='ww'>いた</span><span class='ww'>為替</span><span class='ww'>計算</span><span class='ww'>ツールです。</span><span class='ww'>設計には</span><span class='ww'>分かり</span><span class='ww'>やす</span><span class='ww'>さと</span><span class='ww'>使い</span><span class='ww'>やすさを</span><span class='ww'>心掛けて</span><span class='ww'>います。</span><span class='ww'>各通貨は</span><span class='ww'>それぞれ</span><span class='ww'>正確な</span><span class='ww'>形式で</span><span class='ww'>表示</span><span class='ww'>され、</span>San Francisco<span class='ww'>フォントにて</span><span class='ww'>通貨</span><span class='ww'>記号が</span><span class='ww'>表示</span><span class='ww'>されます。</span>
                    </p>
 
                    <p>
-                   飾らないCurrencyは、シンプルさを目標にしています。全体の開発過程においては、何度もテストやリバイスを経て、世界中のあらゆる年齢の何方でも使いやすいように、目標を追求してきました。
+                   <span class='ww'>飾ら</span><span class='ww'>ない</span><span class='ww'>Currencyは、</span><span class='ww'>シンプルさを</span><span class='ww'>目標に</span><span class='ww'>して</span><span class='ww'>います。</span><span class='ww'>全体の</span><span class='ww'>開発</span><span class='ww'>過程においては、</span><span class='ww'>何度も</span><span class='ww'>テスト</span><span class='ww'>や</span><span class='ww'>リバイスを</span><span class='ww'>経て、</span><span class='ww'>世界中の</span><span class='ww'>あらゆる</span><span class='ww'>年齢の</span><span class='ww'>何方でも</span><span class='ww'>使い</span><span class='ww'>やすい</span><span class='ww'>ように、</span><span class='ww'>目標を</span><span class='ww'>追求</span><span class='ww'>して</span><span class='ww'>きました。」</span>
                    <p>"
-  developer_quote_name: "Nuno Coelho Santos<br>(ヌノ・コエーリョ・サントス)"
-  developer_quote_title: "Currencyのプログラマー兼デザイナー"
+  developer_quote_name: "Nuno Coelho Santos<span class='ww'>(ヌノ・</span><span class='ww'>コエーリョ・</span><span class='ww'>サントス)</span>"
+  developer_quote_title: "<span class='ww'>Currencyの</span><span class='ww'>プログラマー</span><span class='ww'>兼</span><span class='ww'>デザイナー</span>"
 
   # Footer
   press_kit: "プレスキット"
 
   # Support
-  support: "ヘルプとサポートについては、メールにてお問い合わせください："
+  support: "<span class='ww'>ヘルプと</span><span class='ww'>サポートについては、</span><span class='ww'>メールにて</span><span class='ww'>お</span><span class='ww'>問い合わせ</span><span class='ww'>ください：</span>"
