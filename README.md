@@ -8,11 +8,6 @@ This is the marketing website for the [Currency for iOS App](https://itunes.appl
 
 This website is built with [Middleman](https://middlemanapp.com), a static website generator framework.
 
-To install [Middleman](https://middlemanapp.com), please run:
-```
-$ gem install middleman
-```
-
 To install all dependencies, run on the project directory:
 ```
 $ bundle install
@@ -27,3 +22,7 @@ To build the website, run the following command on the project directory:
 ```
 $ bundle exec middleman build
 ```
+
+## CJK Languges Localization
+
+Use the [Budou](https://github.com/google/budou) tool for line breaking in Chinese, Japanese and Korean.
