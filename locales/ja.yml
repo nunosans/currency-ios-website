@@ -3,20 +3,20 @@ ja:
 
   # Header
   title: "iOS向けCurrency（カレンシー）"
-  tagline: "上品為替レート計算アプリ"
+  tagline: "あなたが恋をする為替計算アプリ"
   app_store_badge_image_url: "app_store_badge_ja.png"
   free: "無料"
 
   # Main
-  callout_1: "<span class='wordwrap'>超</span><span class='wordwrap'>シンプル</span><span class='wordwrap'>な</span><span class='wordwrap'>インターフェース</span>"
-  callout_2: "<span class='wordwrap'>美しい</span><span class='wordwrap'>タイポグラフィー</span>"
-  callout_3: "<span class='wordwrap'>多種</span><span class='wordwrap'>通貨</span><span class='wordwrap'>を</span><span class='wordwrap'>自由</span><span class='wordwrap'>に</span><span class='wordwrap'>追加</span>"
+  callout_1: "超シンプルなインターフェース"
+  callout_2: "美しいタイポグラフィー"
+  callout_3: "電卓で計算しながら、即時に通貨の換算をする"
   developer_quote_body: "<p>
-                   <span class='wordwrap'>「Currency</span><span class='wordwrap'>は</span><span class='wordwrap'>私</span><span class='wordwrap'>が</span><span class='wordwrap'>ずっと</span><span class='wordwrap'>使いたい</span><span class='wordwrap'>と</span><span class='wordwrap'>思っていた</span><span class='wordwrap'>為替</span><span class='wordwrap'>レート表</span><span class='wordwrap'>です。</span><span class='wordwrap'>設計に</span><span class='wordwrap'>は</span><span class='wordwrap'>速さ</span><span class='wordwrap'>と</span><span class='wordwrap'>使いやすさ</span><span class='wordwrap'>を</span><span class='wordwrap'>優先しました。</span><span class='wordwrap'>各</span><span class='wordwrap'>通貨</span><span class='wordwrap'>は</span><span class='wordwrap'>それぞれ</span><span class='wordwrap'>正確な</span><span class='wordwrap'>単位</span><span class='wordwrap'>が</span><span class='wordwrap'>サンフランシスコ</span><span class='wordwrap'>活字体</span><span class='wordwrap'>で</span><span class='wordwrap'>表示されます。</span>
+                   Currencyは私が使いたいとずっと思っていた為替計算ツールです。設計には分かりやすさと使いやすさを心掛けています。各通貨はそれぞれ正確な形式で表示され、San Franciscoフォントにて通貨記号が表示されます。
                    </p>
 
                    <p>
-                   <span class='wordwrap'>Currency</span><span class='wordwrap'>は</span><span class='wordwrap'>シンプル</span><span class='wordwrap'>で</span><span class='wordwrap'>ある</span><span class='wordwrap'>事</span><span class='wordwrap'>を</span><span class='wordwrap'>最優先</span><span class='wordwrap'>に</span><span class='wordwrap'>し、</span><span class='wordwrap'>どんな</span><span class='wordwrap'>人</span><span class='wordwrap'>が</span><span class='wordwrap'>どこ</span><span class='wordwrap'>で</span><span class='wordwrap'>使用</span><span class='wordwrap'>する場合</span><span class='wordwrap'>も</span><span class='wordwrap'>簡単</span><span class='wordwrap'>に</span><span class='wordwrap'>操作</span><span class='wordwrap'>できる</span><span class='wordwrap'>よう</span><span class='wordwrap'>に、</span><span class='wordwrap'>テスト</span><span class='wordwrap'>と</span><span class='wordwrap'>訂正</span><span class='wordwrap'>を</span><span class='wordwrap'>繰り返して</span><span class='wordwrap'>きました。」</span>
+                   飾らないCurrencyは、シンプルさを目標にしています。全体の開発過程においては、何度もテストやリバイスを経て、世界中のあらゆる年齢の何方でも使いやすいように、目標を追求してきました。
                    <p>"
   developer_quote_name: "Nuno Coelho Santos<br>(ヌノ・コエーリョ・サントス)"
   developer_quote_title: "Currencyのプログラマー兼デザイナー"
@@ -25,4 +25,4 @@ ja:
   press_kit: "プレスキット"
 
   # Support
-  support: "ヘルプとサポートについては、メールしてください："
+  support: "ヘルプとサポートについては、メールにてお問い合わせください："
