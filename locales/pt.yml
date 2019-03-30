@@ -5,7 +5,7 @@ pt:
   title: "Currency para iOS"
   tagline: "O seu novo conversor de moedas favorito"
   app_store_badge_image_url: "app_store_badge_pt.png"
-  free: "Grátis"
+  price: "2,29 €"
 
   # Main
   callout_1: "Interface extremamente simples"
