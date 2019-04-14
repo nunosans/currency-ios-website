@@ -1,8 +1,8 @@
 # Currency for iOS Website
 
-![alt tag](http://i.imgur.com/MgCOzHu.jpg)
+![alt tag](https://i.imgur.com/MgCOzHu.jpg)
 
-This is the marketing website for the [Currency for iOS App](https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8) developed by [Nuno Coelho Santos](http://nunocoelhosantos.com/) ([@nunosans](http://github.com/nunosans)).
+This is the marketing website for the [Currency for iOS App](https://itunes.apple.com/app/currency-simple-currency-calculator/id1109685198?mt=8) developed by [Nuno Coelho Santos](https://nunocoelhosantos.com/) ([@nunosans](https://github.com/nunosans)).
 
 ## Installation
 
