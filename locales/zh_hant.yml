@@ -5,7 +5,7 @@ zh_hant:
   title: "Currency iOS版"
   tagline: "<span class='ww'>我敢</span><span class='ww'>保證</span><span class='ww'>你</span><span class='ww'>會愛上</span><span class='ww'>的</span><span class='ww'>一款</span><span class='ww'>貨幣</span><span class='ww'>換算</span><span class='ww'>應用</span><span class='ww'>程式</span>"
   app_store_badge_image_url: "app_store_badge_zh_hant.png"
-  price: "¥12.00"
+  price: "¥6.00"
 
   # Main
   callout_1: "<span class='ww'>卓越的</span><span class='ww'>極</span><span class='ww'>簡界面</span>"

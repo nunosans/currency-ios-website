@@ -5,7 +5,7 @@ ja:
   title: "<span class='ww'>iOS向け</span>Currency<span class='ww'>（カレンシー）</span>"
   tagline: "<span class='ww'>あなたが</span><span class='ww'>恋を</span><span class='ww'>する</span><span class='ww'>為替</span><span class='ww'>計算</span><span class='ww'>アプリ</span>"
   app_store_badge_image_url: "app_store_badge_ja.png"
-  price: "¥240"
+  price: "¥120"
 
   # Main
   callout_1: "<span class='ww'>超シンプルな</span><span class='ww'>インターフェース</span>"
